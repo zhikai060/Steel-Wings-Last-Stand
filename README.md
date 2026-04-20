@@ -34,6 +34,8 @@ A browser-based vertical scrolling air combat shooter inspired by classic arcade
 - `WASD` or `Arrow Keys` → Move fighter
 - `P` → Pause / Resume
 
+⭐⭐⭐Recommand to use Mouse on PC!Because WASD and Arrow Keys have some problem to move...
+
 ### Mobile
 
 - Touch and drag on the screen to move the fighter
