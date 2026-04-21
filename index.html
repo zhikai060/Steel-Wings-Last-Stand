@@ -834,7 +834,11 @@
               if (enemy.type === 'boss') {
                 const bossFightTime = game.currentBossStartTime === null ? 0 : Math.max(0, game.elapsedTime - game.currentBossStartTime);
                 game.bossActive = false;
+                if (bossFightTime > game.bossInterval) {
                 game.bossTimer = game.bossCooldownAfterKill;
+} else {
+  game.bossTimer = Math.max(0, game.bossInterval - bossFightTime);
+}
                 game.currentBossStartTime = null;
                 game.bossesDefeated += 1;
                 game.fastestBossKillTime = game.fastestBossKillTime === null
