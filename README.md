@@ -66,9 +66,9 @@ Bosses always drop an item.
 
 ## 👾 Boss System
 
-- A boss appears every 20 seconds
+- A boss appears every 25 seconds
 - A new boss will not appear until the previous one is defeated
-- If a boss takes longer than 20 seconds to defeat, there is still a 5-second cooldown before the next boss appears
+- If a boss takes longer than 25 seconds to defeat, there is still a 7 second cooldown before the next boss appears
 - Boss HP is shown above the boss
 - When a boss is defeated, the game shows:
   - Time spent defeating that boss
