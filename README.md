@@ -7,7 +7,7 @@ A browser-based vertical scrolling air combat shooter inspired by classic arcade
 ## 🎮 Features
 
 - Endless enemy waves
-- Boss appears every 20 seconds
+- Boss appears every 25 seconds
 - 5-second break after defeating a boss
 - Weapon upgrade system
   - Level 1 → 1 bullet
@@ -17,7 +17,7 @@ A browser-based vertical scrolling air combat shooter inspired by classic arcade
   - Level 5 → 5 bullets
 - Defeating a boss reduces weapon level by 2
 - HP, Power Up, and Extra Life items
-- Maximum of 3 lives
+- Maximum of 3 lives and 3 HP
 - Boss HP display
 - Boss kill time display
 - Pause / Restart / Back to Home buttons
