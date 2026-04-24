@@ -414,7 +414,7 @@
         speed: 330,
         hp: 3,
         maxHp: 3,
-        lives: 2,
+        lives: 1,
         power: 1,
         fireCooldown: 0,
         fireRate: 0.16,
@@ -1173,7 +1173,7 @@
       console.assert(game.enemies.some((enemy) => enemy.type !== 'boss'), 'Regular enemies should still spawn during boss fights');
 
       resetGame();
-      game.player.lives = 3;
+      game.player.lives = 1;
       game.player.lives = Math.min(3, game.player.lives + 1);
       console.assert(game.player.lives === 3, 'Lives should stay capped at 3');
 

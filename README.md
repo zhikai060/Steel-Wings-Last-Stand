@@ -9,6 +9,7 @@ A browser-based vertical scrolling air combat shooter inspired by classic arcade
 - Endless enemy waves
 - Boss appears every 25 seconds
 - 5-second break after defeating a boss
+- Start with 3HP and 1 live
 - Weapon upgrade system
   - Level 1 → 1 bullet
   - Level 2 → 2 bullets
@@ -107,7 +108,7 @@ https://zhikai060.github.io/steel-wings-last-stand/
 
 Or run it locally:
 
-1. Download or clone this repository
+1. Download .zip or clone this repository
 2. Open the HTML file in your browser
 
 ```bash
